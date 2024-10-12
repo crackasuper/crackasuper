@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sadem Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Sadem <span>Hussen</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#contact">Contact</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#certificates">Certificates</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="me.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Sadem</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <div class="social-links">
+                    <a href="https://github.com/crackasuper" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100025321750771" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/sadem-h/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="me.jpg" alt="About Me">
+            </div>
+            <div class="about-content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">About Me</h1 >
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-image" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="contact.jpg" alt="Contact">
+            </div>
+            <div class="contact-content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Get in Touch</h1>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <form>
+                    <input type="text" placeholder="Name" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+                    <input type="email" placeholder="Email" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <textarea placeholder="Message" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></textarea>
+                    <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1400">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skills-container">
+            <div class="skills-image" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="skills.jpg" alt="Skills">
+            </div>
+            <div class="skills-content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">My Skills</h1>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <div class="skill-list">
+                    <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+                        <i class="fa-solid fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <i class="fa-solid fa-css3"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-solid fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-solid fa-react"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certificates">
+        <div class="certificates-container">
+            <div class="certificates-image" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="certificates.jpg" alt="Certificates">
+            </div>
+            <div class="certificates-content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">My Certificates</h1>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <div class="certificate-list">
+                    <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+                        <img src ="certificate1.jpg" alt="Certificate 1">
+                        <p>Certificate 1</p>
+                    </div>
+                    <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <img src="certificate2.jpg" alt="Certificate 2">
+                        <p>Certificate 2</p>
+                    </div>
+                    <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <img src="certificate3.jpg" alt="Certificate 3">
+                        <p>Certificate 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
