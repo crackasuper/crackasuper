@@ -10,26 +10,26 @@
 </head>
 <body>
     <nav>
-        <div class="nav-container">
+        <div class="nav-container fixed-nav">
             <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
                 Sadem <span>Hussen</span>
             </div>
-            <div class="links">
+            <div class="links" >
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#contact">Contact</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#skills">Skills</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#certificates">Certificates</a></div>
-        </div>
+            </div>
         <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-    </div>
+       </div>
         <div class="dropdown">
             <div class="links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Service</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificates">Certificate</a>
+                <a href="#contact">Contact</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
         </div>
@@ -50,7 +50,7 @@
                     <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
                 </div>
                 <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
-                    <button>Hire me</button>
+                    <button><a style="text-decoration:none" href="#contact">Hire me</a></button>
                 </div>
             </div>
         </div>
@@ -60,38 +60,66 @@
             <div class="about-image" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="me.jpg" alt="About Me">
             </div>
-            <div class="about-content">
+            <div class="about-content" style="color: white">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">About Me</h1 >
-                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p><br>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100"> <a style="text-decoration: none; color: cyan;" href="#home">Return To Home</a></p>
+                
             </div>
         </div>
     </section>
+
+
     <section id="contact">
         <div class="contact-container">
             <div class="contact-image" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="contact.jpg" alt="Contact">
+                <img src="me.jpg" alt="Contact">
             </div>
-            <div class="contact-content">
+            <div class="contact-content" style="color: white;">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Get in Touch</h1>
-                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
-                <form>
-                    <input type="text" placeholder="Name" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
-                    <input type="email" placeholder="Email" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
-                    <textarea placeholder="Message" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></textarea>
-                    <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1400">Send</button>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I am specialize in web development, data analysis, and machine learning, creating innovative solutions that drive results.</p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">Services Offered:</p>
+                <ul data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300" style="list-style-type: none; text-align:center;color:cyan;">
+                    <li>Web Development (Front-end and Back-end) </li>
+                    <li>UI/UX Design</li>
+                    <li>Data Analysis and Visualization</li>
+                    <li>Machine Learning Model Development</li>
+                    <li>Consultation Services</li><br>
+                </ul>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="94a6083f-8b26-4255-ad02-40e8beca1f19">
+                    <input type="text" name="name" placeholder="Name" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100" required>
+                    <input type="email" name="email" required placeholder="Email" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <textarea placeholder="Message" name="message" required data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></textarea>
+                    <button type="submit" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1400">Send</button> <br>
+                    
                 </form>
+                 <a style="text-decoration: none; color: cyan;" href="#home">Return To Home</a>
+               
             </div>
+            
         </div>
     </section>
+
+
     <section id="skills">
         <div class="skills-container">
             <div class="skills-image" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="skills.jpg" alt="Skills">
+                <img src="skills.jpeg" alt="Skills">
             </div>
             <div class="skills-content">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">My Skills</h1>
-                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
                 <div class="skill-list">
+                    <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-solid fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-solid fa-react"></i>
+                        <p>Django Rest APi</p>
+                    </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
                         <i class="fa-solid fa-html5"></i>
                         <p>HTML5</p>
@@ -109,34 +137,44 @@
                         <p>React</p>
                     </div>
                 </div>
+                 <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100"> <a style="text-decoration: none; color: cyan;" href="#home">Return To Home</a></p>
             </div>
         </div>
     </section>
+
+
     <section id="certificates">
         <div class="certificates-container">
             <div class="certificates-image" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="certificates.jpg" alt="Certificates">
+                <img src="me.jpg" alt="Certificates">
             </div>
             <div class="certificates-content">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">My Certificates</h1>
                 <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
                 <div class="certificate-list">
                     <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
-                        <img src ="certificate1.jpg" alt="Certificate 1">
+                        <img src="me.jpg" alt="Certificate 1">
                         <p>Certificate 1</p>
                     </div>
                     <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
-                        <img src="certificate2.jpg" alt="Certificate 2">
+                        <img src="me.jpg" alt="Certificate 2">
                         <p>Certificate 2</p>
                     </div>
                     <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
-                        <img src="certificate3.jpg" alt="Certificate 3">
+                        <img src="me.jpg" alt="Certificate 3">
+                        <p>Certificate 3</p>
+                    </div>
+                    <div class="certificate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <img src="me.jpg" alt="Certificate 3">
                         <p>Certificate 3</p>
                     </div>
                 </div>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100"> <a style="text-decoration: none; color: cyan;" href="#home">Return To Home</a></p>
             </div>
         </div>
     </section>
+
+
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
