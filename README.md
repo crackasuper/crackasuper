@@ -43,6 +43,12 @@ You can click the Preview link to take a look at your changes.
 
 <!-- Profile banner (you can replace with your own or use a tool like shields.io/banner or svg generator) -->
 <p align="center">
+  <img src="sadem_hussen_header.png" alt="Sadem Hussen banner" />
+</p>
+
+
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Full+Stack+Developer;Python,+Django,+React+Expert;Clean+Code+Advocate&center=true&width=500&height=45">
 </p>
 
