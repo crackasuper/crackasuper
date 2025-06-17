@@ -87,7 +87,7 @@ You can click the Preview link to take a look at your changes.
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=crackasuper&show_icons=true&theme=default&hide_title=true&count_private=true" height="160"/>
+  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=crackasuper&layout=compact&theme=default" height="160"/>
 </p>
 
