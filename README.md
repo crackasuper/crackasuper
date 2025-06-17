@@ -1,11 +1,11 @@
-- 👋# 👋 Hi, I'm crackasuper
+- 👋# 👋 Hi, I'm Sadem Hussen
 
 I'm a **Full Stack Developer** focused on building scalable, maintainable software with clean code and modern tools.
 
 - 🔭 Currently working on full stack projects with Django, React, and REST APIs
 - 🌱 Learning more about system design, testing, and DevOps practices
 - 🛠️ Tech I use: Python • JavaScript • React • Django • PostgreSQL • Tailwind • Git
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME)
+- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/sadem-h/)
 
 ---
 
