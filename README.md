@@ -26,7 +26,7 @@
 - 🌱 Exploring system design, testing, and DevOps
 - ⚙️ Tech stack includes: Python, JavaScript, Django, React, PostgreSQL
 - 🤝 Open to collaboration on meaningful tech projects
-- 📫 Let's connect: [LinkedIn](linkedin.com/in/sadem-h/) . [PORTIFOLIO](#)
+- 📫 Let's connect: [LinkedIn](linkedin.com/in/sadem-h/) . [PORTIFOLIO](https://my-cite.onrender.com/)
 
 ---
 
