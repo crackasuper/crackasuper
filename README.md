@@ -53,9 +53,9 @@
 
 ---
 
-### 🧠 Quote I Work By
+### 🧠 
 
-> "First, solve the problem. Then, write the code." – John Johnson
+> "First, started from hello world . Then, hello real world!!!." 
 
 ---
 
